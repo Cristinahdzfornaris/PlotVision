@@ -1,3 +1,24 @@
+# Archivos de modelo (pesan mucho para Git)
+*.pth
+*.onnx
+
+# Datos de entrenamiento
+Data/
+evaluacion_manual/
+
+# Videos de prueba
+*.mp4
+*.avi
+*.webp
+
+# Variables de entorno
+.env
+
+# Resultados del análisis
+historia_completa.json
+grafo_historia.json
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +226,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
